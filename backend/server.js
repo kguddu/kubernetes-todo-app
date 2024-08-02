@@ -11,7 +11,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // MongoDB connection
-mongoose.connect('mongodb://localhost:27017/todos', {
+mongoose.connect('mongodb:// mongodb-cluser-ip-serv/todos', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 }).then(() => {
